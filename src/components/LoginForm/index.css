@@ -1,0 +1,53 @@
+.div1 {
+  background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/2000a352812969.59eedeac2642a.gif');
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60%;
+  width: 25%;
+  margin-right: 60px;
+  color: white;
+  padding: 20px;
+  background-image: url('https://file.mockplus.com/image/2018/04/5fc8b569-d76f-4d5d-809a-6dc6968e28f7.gif');
+  border-radius: 20px;
+}
+.label {
+  font-family: Roboto;
+  font-weight: bold;
+  align-self: flex-start;
+  padding-left: 20px;
+}
+.input {
+  border-radius: 10px;
+  height: 10%;
+  width: 90%;
+  padding: 5px;
+  background-color: transparent;
+  border-color: white;
+  color: white;
+}
+.login{
+  background-color: rgb(79, 79, 222);
+  height: 10%;
+  width: 90%;
+  font-weight: bold;
+  font-family: Roboto;
+  margin-top: 30px;
+  color: white;
+  border-radius: 20px;
+  border-color: transparent;
+  cursor: pointer;
+}
+.login:hover{
+  font-size: 25px;
+
+}

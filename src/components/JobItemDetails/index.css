@@ -1,0 +1,115 @@
+.jobDiv1 {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.jobDiv2 {
+  height: 90%;
+  width: 100%;
+  overflow: scroll;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.jobDiv3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(84, 84, 230),
+    rgb(230, 128, 221)
+  );
+  width: 90%;
+  padding: 10px;
+  padding-left: 30px;
+  border-radius: 20px;
+}
+
+.failureView{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.logoDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  width: 100%;
+}
+.titleDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  width: 80%;
+}
+.starsData {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.skillsUl {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.skillsli {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.lifeDiv {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.jobUl {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.jobLi {
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 25vw;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(84, 84, 230),
+    rgb(230, 128, 221)
+  );
+  padding: 20px;
+  overflow: auto;
+}
+.similarLogo {
+  margin-right: 10px;
+}
+.similarLi {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}

@@ -1,0 +1,32 @@
+.nav {
+  height: 10%;
+  width: 100%;
+  background-color: rgb(240, 132, 218);
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  align-items: center;
+}
+.navUl {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+}
+.navLi {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.logout {
+  height: 50%;
+  width: 8%;
+  background-color: rgb(71, 71, 213);
+  border-radius: 10px;
+  border-color: transparent;
+  color: rgb(241, 106, 218);
+  font-weight: bold;
+}
